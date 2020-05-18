@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+form {
+    margin-top: 600 px;
+}
+
+.results {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    border: 2px solid gray;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+
+    color: white;
+    font-family: Impact;
+    -webkit-text-stroke-width: 3px; 
+    -webkit-text-stroke-color: black; 
+}

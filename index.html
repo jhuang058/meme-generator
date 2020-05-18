@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Meme Generator</title>
+    <link rel ='stylesheet' href='./style.css'>  
+  </head>
+  <body>
+    <div class='results'>
+    </div>
+    <br>
+      <form class='input'>
+        <h1>Meme Generator</h1>
+        <div class='input image'>
+            <label for='imageurl'>Enter image or gif url below:</label><br>
+            <input id='imageurl' type='text' placeholder="URL">
+            <button type='submit'>Submit</button>
+        </div>
+        <br>
+        <div class='input text'>
+            <label for='text'>Enter Text</label><br>
+            <input id='text' type='text' placeholder="ex: one does not simply...">
+            <button type='submit'>Submit</button><br>
+            <input id='textsize' type='range' min='30' max='90'>
+        </div>
+    </form>
+      <script src='script.js'></script>
+  </body>
+</html>
